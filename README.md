@@ -45,11 +45,12 @@ Next follow these steps to set up and run the E-Commerce Admin Dashboard on your
    ```bash
    pip install -r requirements.txt
 
-4. Configure your environment variables by creating a .env file in the project root directory. You need to set database connection details().
-docker run --nam
+4. Configure your environment variables(DATABASE_URL) in the .env file in the project root directory.
+   
 5. Start the FastAPI application:
    
    ```bash
+   cd src
    uvicorn app.main:app --reload
 
 The E-Commerce Admin Dashboard should now be accessible at http://localhost:8000.
