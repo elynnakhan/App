@@ -24,19 +24,21 @@ The **E-Commerce Admin Dashboard** is a web application built using FastAPI and 
 
 ## Installation
 
-Follow these steps to set up and run the E-Commerce Admin Dashboard on your local development environment:
+Prequisite : MySQL, python and pip installed.
+
+Next follow these steps to set up and run the E-Commerce Admin Dashboard on your local development environment:
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/e-commerce-admin-dashboard.git
-   cd e-commerce-admin-dashboard
+   git clone https://github.com/elynnakhan/EcommerceApp.git
+   cd src
 
 2. Create a virtual environment and activate it:
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+   python -m venv env
+   source env/bin/activate  # On Windows, use: env\Scripts\activate
 
 3. Install the project dependencies:
 
@@ -44,7 +46,7 @@ Follow these steps to set up and run the E-Commerce Admin Dashboard on your loca
    pip install -r requirements.txt
 
 4. Configure your environment variables by creating a .env file in the project root directory. You need to set database connection details().
-
+docker run --nam
 5. Start the FastAPI application:
    
    ```bash
