@@ -32,7 +32,7 @@ Next follow these steps to set up and run the E-Commerce Admin Dashboard on your
 
    ```bash
    git clone https://github.com/elynnakhan/EcommerceApp.git
-   cd src
+   cd EcommerceApp
 
 2. Create a virtual environment and activate it:
 
